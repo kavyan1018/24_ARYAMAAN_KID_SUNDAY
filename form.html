@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="">
+
+        <label for="fn">First Name:</label>
+        <input type="text" id="fn" placeholder="First Name" required>
+
+        <br><br>
+        
+        <label for="ln">Last Name:</label>
+        <input type="text" id="ln" placeholder="Last Name" required>    
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email" required>
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password" required>
+
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" required>
+
+        <br><br>
+
+        <label for="color">Choose a color:</label>
+        <input type="color" id="color" required>
+
+        <br><br>
+
+        <label for="quantity">Quantity (1-10):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+
+        <br><br>
+
+        <label for="website">Website:</label>
+        <input type="url" id="website" placeholder="https://example.com" required>
+
+        <br><br>
+
+        <!-- dropdown button -->
+
+        <label for="dropdown">Choose an option:</label>
+        <select id="dropdown" required>
+            <option value="">Select an option</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+
+        <br><br>
+
+        <!-- address -->
+        <label for="address">Address:</label>
+        <textarea id="address" rows="4" cols="50" placeholder="Enter your address here..." required></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
